@@ -1,0 +1,7 @@
+services:
+    pcgf.telegramaccountlink.listener:
+        class: pcgf\telegramaccountlink\event\listener
+        arguments:
+            - '@user'
+        tags:
+            - { name: event.listener }

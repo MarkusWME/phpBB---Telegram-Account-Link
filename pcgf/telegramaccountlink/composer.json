@@ -1,0 +1,32 @@
+{
+    "name": "pcgf/telegramaccountlink",
+    "type": "phpbb-extension",
+    "description": "An extension that adds a Telegram link to your profile fields.",
+    "homepage": "https://github.com/MarkusWME/phpBB---Telegram-Account-Link",
+    "version": "1.0.0",
+    "time": "2017-03-02",
+    "keywords": ["telegram", "account", "link", "telegram account", "telegram link", "telegram account link", "profile fields"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "MarkusWME",
+            "homepage": "https://github.com/MarkusWME",
+            "email": "markuswme@pcgamingfreaks.at",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Telegram Account Link",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1"
+        },
+        "version-check": {
+            "host": "api.pcgf.at",
+            "directory": "/phpbb",
+            "filename": "telegramaccountlink.json"
+        }
+    }
+}
