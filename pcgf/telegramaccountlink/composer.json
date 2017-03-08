@@ -3,8 +3,8 @@
     "type": "phpbb-extension",
     "description": "An extension that adds a Telegram link to your profile fields.",
     "homepage": "https://github.com/MarkusWME/phpBB---Telegram-Account-Link",
-    "version": "1.0.0",
-    "time": "2017-03-02",
+    "version": "1.0.1",
+    "time": "2017-03-08",
     "keywords": ["telegram", "account", "link", "telegram account", "telegram link", "telegram account link", "profile fields"],
     "license": "GPL-2.0",
     "authors": [

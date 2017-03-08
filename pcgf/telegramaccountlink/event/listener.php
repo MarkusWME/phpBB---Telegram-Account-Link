@@ -11,7 +11,7 @@ namespace pcgf\telegramaccountlink\event;
 use phpbb\user;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
-/** @version 1.0.0 */
+/** @version 1.0.1 */
 class listener implements EventSubscriberInterface
 {
     /** @var user $user The user object */
@@ -43,6 +43,7 @@ class listener implements EventSubscriberInterface
         return array(
             'core.generate_profile_fields_template_data_before' => 'load_language_data',
             'core.ucp_profile_modify_profile_info'              => 'load_language_data',
+            'core.memberlist_modify_sql_query_data'             => 'load_language_data',
         );
     }
 
